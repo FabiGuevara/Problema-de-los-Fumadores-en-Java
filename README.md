@@ -10,7 +10,11 @@ Requisitos del funcionamiento de los fumadores y del tabaquero:
 * Uno de los fumadores tiene solamente papel arroz, otro solamente tabaco y el otro tiene solamente cerillos. 
 * El tabaquero coloca aleatoriamente en el mostrador de la zona de fumadores dos ingredientes diferentes de los tres que se necesitan para hacer un cigarro, a continuación desbloquea al fumador que tiene el tercer ingrediente y después espera el aviso. 
 * El fumador desbloqueado toma los dos ingredientes del mostrador, avisa al tabaquero para que pueda seguir sirviendo ingredientes y fuma durante un tiempo después de hacer su cigarro. 
-* El tabaquero vuelve a poner dos ingredientes aleatorios en el mostrador y se repite el ciclo.    Además para poder encontrar una solución segura al problema de los fumadores:   Los fumadores retiran los ingredientes del mostrador de una sola vez.  Un fumador sólo vuelve a crear su cigarro cuando terminó de fumarse su último cigarrillo.  “Fumar” lleva un tiempo, que se puede simular utilizando el método sleep(…).  Los fumadores no pueden reservarse ingredientes que ya estén depositados en el mostrador para formar el siguiente cigarro. Por ejemplo, si el tabaquero coloca tabaco y papel, mientras que el fumador que tiene los cerillos está fumando, el tabaco y el papel permanecerán en el mostrador hasta que el fumador aludido termine de fumar su cigarro y retire de una sola vez dichos ingredientes del mostrador.   
+* El tabaquero vuelve a poner dos ingredientes aleatorios en el mostrador y se repite el ciclo.    Además para poder encontrar una solución segura al problema de los fumadores:  
+* Los fumadores retiran los ingredientes del mostrador de una sola vez. 
+* Un fumador sólo vuelve a crear su cigarro cuando terminó de fumarse su último cigarrillo. 
+* “Fumar” lleva un tiempo, que se puede simular utilizando el método sleep(…). 
+* Los fumadores no pueden reservarse ingredientes que ya estén depositados en el mostrador para formar el siguiente cigarro. Por ejemplo, si el tabaquero coloca tabaco y papel, mientras que el fumador que tiene los cerillos está fumando, el tabaco y el papel permanecerán en el mostrador hasta que el fumador aludido termine de fumar su cigarro y retire de una sola vez dichos ingredientes del mostrador.   
 
 REQUISITOS QUE HA DE SATISFACER EL PROGRAMA:   
 1. Utilizar un monitor para programar la sincronización entre los hilos en la simulación del problema. 
